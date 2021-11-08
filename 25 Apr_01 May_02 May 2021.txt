@@ -1,0 +1,68 @@
+25 April 2021
+
+TestNG:
+-------
+1. is an unit testing tool for JAVA
+
+2.  has all the inbuilt components required for testing.
+
+3. Using TestNG, we can able to perform unit by unit level of testing.
+Here unit is nothing but a single test case
+Ex: Login Unit, Registration Unit, Forgot Password Unit
+
+In Login Unit -  we have all the login test cases in this unit.
+
+4. Able to perform verification and validation for each and every unit. (each and every test case)
+
+5. Using TestNG,we can able to generate a presentable report.
+
+6. Using TestNG, we can able to run a single test case or a suite of test cases.
+which means a complete set of test cases
+
+Ex: A suite - Login, Registration Forgot Password
+
+7. Parameterization concept can achieved through TestNG.
+Parameterization is nothing but achieving multiple iterations for a single test case.
+i.e different sets of username and password can be used for a single Login test case.
+
+8. We can use TestNG as framework controlling entity
+i.e all the framework used in Selenium can be controlled through TestNG.
+Framework has the following components
+1. Test case and Test data (eg: stored in excel)
+2. Test Script
+3. Logs
+4. Reports
+
+Test case and test data calls the following test scripts during execution after which logs are prepared for each test case executed and correspondingly reports are generated.
+All the above actions constitue a framework, which inturn is controlled by TestNG.
+
+9. In TestNG, there is no main method. All the methods are controlled through Anotations
+Anotations - starts with '@' symbol.
+
+
+10. In TestNG, there is no static methods. All the methods are non static.
+
+11. All the test cases are defined through '@Test' annotation.
+and run as TestNG Test. 
+As TestNG has no main method, the program is run through Junit Test and there is also a log file and report generated in the console after execution.
+
+Why TestNG is popular?
+It is an advanced testing template of JUnit.
+TestNG has more components/features when compared to JUnit.
+It has also more annotations when compared to JUnit.
+TestNG Annotations are more readable when compared to JUnit.
+Reports look very presentable in TestNG when compared to JUnit.
+Codes are very simple in TestNG when compared to JUnit.
+
+How to add TestNG in eclipse:
+TestNG is not configured in eclipse by default as Junit. It is a plugin and should be configured manually in the eclipse.
+
+Help --> Eclipse Market place --> TestNG
+
+Help --> google --> testNG download --> copy the url --> install new s/w --> copy the url and click on download.
+
+Verify TestNG in eclipse:
+Windows --> Show View --> Other --> JAVA --> TestNG
+
+
+
