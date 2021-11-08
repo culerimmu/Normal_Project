@@ -63,6 +63,3 @@ Help --> google --> testNG download --> copy the url --> install new s/w --> cop
 
 Verify TestNG in eclipse:
 Windows --> Show View --> Other --> JAVA --> TestNG
-
-
-
